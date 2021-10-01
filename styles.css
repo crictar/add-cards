@@ -18,15 +18,17 @@ h1{
 }
 .main{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
+    max-width: 100%;
+    flex-wrap: wrap;
 }
 button{
     border: 1px solid white;
     height: 32px;
     border-radius: 5px;
-    margin-bottom: 20px;
+    margin: 0 5px 20px 5px;
 }
 .buttons{
     display: flex;
@@ -39,10 +41,11 @@ button:hover{
 .card{
     max-width: 300px;
     border: 1px solid #dfdfdf;
-    border-radius: 10px;
-    margin-bottom: 32px;
+    border-radius: 0px;
+    margin: 0 5px 32px 5px;
     overflow: hidden;
     color: white;
+    background-color: rgb(87, 87, 87);
 }
 .image-container{
     width: 200px;

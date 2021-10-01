@@ -5,10 +5,16 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
 }
 
 h1{
     text-align: center;
+    color: white;
 }
 .main{
     display: flex;
@@ -17,7 +23,7 @@ h1{
     align-items: center;
 }
 button{
-    border: 1px solid black;
+    border: 1px solid white;
     height: 32px;
     border-radius: 5px;
     margin-bottom: 20px;
@@ -36,13 +42,15 @@ button:hover{
     border-radius: 10px;
     margin-bottom: 32px;
     overflow: hidden;
+    color: white;
 }
 .image-container{
-    width: 100%;
+    width: 200px;
+    height: 300px;
 }
 .image-container img{
-    width: 100%;
-   
+    width: 200px;
+    height: 300px;
 }
 .description{
     margin: 16px;

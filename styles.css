@@ -5,33 +5,22 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: black;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
 }
 
 h1{
     text-align: center;
-    color: white;
 }
 .main{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 100%;
-    flex-wrap: wrap;
 }
 button{
-    border: 1px solid white;
+    border: 1px solid black;
     height: 32px;
     border-radius: 5px;
-    margin: 0 5px 20px 5px;
-}
-.buttons{
-    display: flex;
+    margin-bottom: 32px;
 }
 button:hover{
     background-color: black;
@@ -41,19 +30,16 @@ button:hover{
 .card{
     max-width: 300px;
     border: 1px solid #dfdfdf;
-    border-radius: 0px;
-    margin: 0 5px 32px 5px;
+    border-radius: 10px;
+    margin-bottom: 32px;
     overflow: hidden;
-    color: white;
-    background-color: rgb(87, 87, 87);
 }
 .image-container{
-    width: 200px;
-    height: 300px;
+    width: 100%;
 }
 .image-container img{
-    width: 200px;
-    height: 300px;
+    width: 100%;
+   
 }
 .description{
     margin: 16px;
